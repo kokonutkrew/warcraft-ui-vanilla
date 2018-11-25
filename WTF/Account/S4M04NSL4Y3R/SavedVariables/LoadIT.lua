@@ -6,6 +6,8 @@ LoadITcf = {
 		},
 		["Alpenglow:Samoanlegend"] = {
 		},
+		["Lightbringer:Samoantest"] = {
+		},
 		["Alpenglow:Samoanbeast"] = {
 		},
 		["Alpenglow:Samoanslayer"] = {
@@ -14,6 +16,13 @@ LoadITcf = {
 	["Sets"] = {
 	},
 	["Verbose"] = 1,
+	["TTbuttons"] = 1,
+	["BTReloadUI"] = 1,
+	["Position"] = {
+		["y"] = 0,
+		["x"] = 0,
+	},
+	["TTdetails"] = 1,
 	["Classes"] = {
 		["Warrior"] = {
 		},
@@ -24,11 +33,4 @@ LoadITcf = {
 		["Warlock"] = {
 		},
 	},
-	["BTReloadUI"] = 1,
-	["Position"] = {
-		["y"] = 0,
-		["x"] = 0,
-	},
-	["TTdetails"] = 1,
-	["TTbuttons"] = 1,
 }
