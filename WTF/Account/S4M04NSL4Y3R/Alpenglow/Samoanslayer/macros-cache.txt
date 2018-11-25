@@ -1,0 +1,15 @@
+MACRO 16777217 "Disarm" Ability_Warrior_Disarm
+/run local texture,name,isActive,isCastable = GetShapeshiftFormInfo(2); if isActive then CastSpellByName("Disarm()"); else CastSpellByName("Defensive Stance()"); end;
+END
+MACRO 16777220 "Intercept" Ability_Rogue_Sprint
+/run local texture,name,isActive,isCastable = GetShapeshiftFormInfo(3); if isActive then CastSpellByName("Intercept"); else CastSpellByName("Berserker Stance()"); end;
+END
+MACRO 16777218 "Overpower" Ability_SteelMelee
+/run local texture,name,isActive,isCastable = GetShapeshiftFormInfo(1); if isActive then CastSpellByName("Overpower"); else CastSpellByName("Battle Stance()"); end;
+END
+MACRO 16777221 "Taunt" Spell_Nature_Reincarnation
+/run local texture,name,isActive,isCastable = GetShapeshiftFormInfo(2); if isActive then CastSpellByName("Taunt"); else CastSpellByName("Defensive Stance()"); end;
+END
+MACRO 16777219 "Taunt" Ability_BullRush
+o
+END

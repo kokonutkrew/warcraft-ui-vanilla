@@ -1,0 +1,9 @@
+MACRO 2 "AllQuestDump" Ability_BackStab
+/run for i=1,GetNumQuestLogEntries() do SelectQuestLogEntry(i); SetAbandonQuest(); AbandonQuest(); end
+END
+MACRO 3 "Dancer" Ability_CheapShot
+/dance
+END
+MACRO 1 "QuestDump" Ability_BackStab
+/script SelectQuestLogEntry(1); SetAbandonQuest(); AbandonQuest();
+END
